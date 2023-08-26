@@ -1,5 +1,5 @@
 a,b,c=map(int,input().split())
-if(a==b and b==c):
+if(a==b and b==c and a==c):
     print("Equilateral triangle")
 elif(a==b or a==c or b==c):
     print("Isosceles triangle")
